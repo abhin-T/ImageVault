@@ -8,6 +8,12 @@
         "default_title": "ImageVault"
     },
     "permissions": [
-        "scripting"
-    ]
+        "scripting", "identity"
+    ],
+    "oauth2": {
+        "client_id": "27632296485-q1loqnegv5092l7hkuminhpub24aqsn3.apps.googleusercontent.com",
+        "scopes": [
+          "https://www.googleapis.com/auth/userinfo.email"
+        ]
+    }
 }
