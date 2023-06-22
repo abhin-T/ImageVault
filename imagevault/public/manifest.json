@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ImageVault",
+    "description": "Easily save and organize online images to your account, allowing you to effortlessly access and use them wherever you need, without the hassle of manual downloads.",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html",
+        "default_title": "ImageVault"
+    },
+    "permissions": [
+        "scripting"
+    ]
+}
