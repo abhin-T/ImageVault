@@ -1,14 +1,20 @@
 {
     "manifest_version": 3,
     "name": "ImageVault",
-    "description": "Easily save and organize online images to your account, allowing you to effortlessly access and use them wherever you need, without the hassle of manual downloads.",
+    "description": "Streamline, save, and share your online images seamlessly, without the hassle of manual downloads.",
     "version": "1.0.0",
     "action": {
         "default_popup": "popup.html",
         "default_title": "ImageVault"
     },
+    "icons": {
+        "16": "./icons/icon16.png",
+        "32": "./icons/icon32.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png"
+    },
     "permissions": [
-        "scripting", "identity"
+        "identity"
     ],
     "oauth2": {
         "client_id": "27632296485-q1loqnegv5092l7hkuminhpub24aqsn3.apps.googleusercontent.com",
