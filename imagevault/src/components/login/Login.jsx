@@ -1,7 +1,7 @@
-import React from 'react'
-import { signIn } from '../../firebase.js'
-import { Container, Row, Col } from 'react-bootstrap'
-import './login.css'
+import React from 'react';
+import { signIn } from '../../firebase.js';
+import { Container, Row, Col } from 'react-bootstrap';
+import './login.css';
 
 const Login = () => {
   return (
