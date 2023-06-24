@@ -43,7 +43,6 @@ const App = () => {
             await initUser(user.uid, user.email, user.email.split("@")[0]);  // default username
           }
         }
-
       });
     };
 
@@ -54,15 +53,7 @@ const App = () => {
   if ( user === undefined || username === "" || images === [] ) return <h1>Loading...</h1>
 
   // user is logged in
-  if ( user != null ) {
-
-    // TODO:
-    // get all user data from db or add user info to db
-    // send this data (ex: img urls) as a prop to Menu component
-    // which will render the images and other things like settings
-
-    return (<Menu username={username} images={images}/>)
-  }
+  if ( user != null ) return (<Menu uid={user.uid} username={username} images={images} profilePic={user.photoURL}/>)
 
   return (<Login/>)
 }
