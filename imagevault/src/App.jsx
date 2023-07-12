@@ -6,7 +6,7 @@ import { doc, getDoc, setDoc } from "firebase/firestore";
 
 const App = () => {
   
-  // Helper functions
+  // Helper functions work
 
   // adds new user to database
   const initUser = async (uid, user_email, user_name) => {
