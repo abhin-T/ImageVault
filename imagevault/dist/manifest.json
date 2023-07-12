@@ -17,9 +17,10 @@
         "identity"
     ],
     "oauth2": {
-        "client_id": "27632296485-q1loqnegv5092l7hkuminhpub24aqsn3.apps.googleusercontent.com",
+        "client_id": "27632296485-1b9f8v6siokp3f0ljklqpfr8k4h97uth.apps.googleusercontent.com",
         "scopes": [
           "https://www.googleapis.com/auth/userinfo.email"
         ]
-    }
+    },
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA14XpVUpIyDvwYv3LFzKr6V1CNDHfTz/a+YPiuO0i5zjoRqWd5F9ZlTIkxUiiMnZnGRH8kcwtZZbGH4Uf7ZJbqXAo+/PgyUvq6oGBoNE6CjFf42CUuw18mpANxBWEtKlkZIPYvDlc3ud2BAiTMuIdGEVgzJpadSzp+EXCyImXhO5t3IQSn+YJL16Wz0/smG3O4JfIj6vFUbs/o4Q2ZOYt6UYFRcRXaq25Q+/SdFYeZpew4HSO7IXkx5o01QUkdkygVXBob1JLO+DRPIWEWKaxYUKLnwa1JWzzMKfwNCQ3tLug5YPFpX2O5QdCYZA1JF3zuOWb24zMPkPuDbQA9a4VOQIDAQAB"
 }
