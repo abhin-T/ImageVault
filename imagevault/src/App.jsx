@@ -53,7 +53,7 @@ const App = () => {
   if ( user === undefined || username === "" || images === [] ) return <h1>Loading...</h1>
 
   // user is logged in
-  if ( user != null ) return (<Menu uid={user.uid} username={username} images={images} profilePic={user.photoURL}/>)
+  if ( user != null ) return (<Menu uid={user.uid} username={username} imagesFromDB={images} profilePic={user.photoURL}/>)
 
   return (<Login/>)
 }
