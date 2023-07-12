@@ -50,7 +50,7 @@ const App = () => {
   }, []);
 
   // loading animation while getting user data 
-  if ( user === undefined || username === "" || images === [] ) return <h1>Loading...</h1>
+  if ( user === undefined || username === "" || images === [] ) return <h1>Loadingg...</h1>
 
   // user is logged in
   if ( user != null ) return (<Menu uid={user.uid} username={username} imagesFromDB={images} profilePic={user.photoURL}/>)
